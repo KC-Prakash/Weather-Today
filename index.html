@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Broadcast Live | Open API</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="weather-card">
+      <!-- Header -->
+      <div class="header">
+        <h2>Weather Broadcast</h2>
+
+        <div class="live-status">
+          <span class="live-dot"></span>
+          <span>Live</span>
+        </div>
+      </div>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <i class="fa-solid fa-location-dot locationIcon"></i>
+
+        <input type="text" id="city" placeholder="Search City..." autocomplete="off" />
+
+        <i class="fa-solid fa-magnifying-glass searchIcon"></i>
+
+        <div id="suggestions" class="suggestions"></div>
+      </div>
+
+      <!-- Main Weather Info -->
+      <div class="weather-info">
+        <div class="weatherHeroImg">
+          <img id="icon" src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f326.svg"
+            alt="Weather Icon" />
+        </div>
+
+        <div class="weatherInfoHero">
+          <h2 id="cityName">Butwal, Rupandehi</h2>
+
+          <h1 id="temp">20°C</h1>
+
+          <p id="condition">Clear Sky</p>
+
+          <div class="heroCards">
+            <div class="heroDetailCard">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f321.svg" class="weatherHeroIcon"
+                alt="Feels like icon" />
+
+              <div>
+                <p class="heroCardp">Feels Like</p>
+                <span id="feelsLike">20°C</span>
+              </div>
+            </div>
+
+            <div class="heroDetailCard">
+              <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a7.svg" class="weatherHeroIcon"
+                alt="Humidity icon" />
+
+              <div>
+                <p class="heroCardp">Humidity</p>
+                <span id="humidity">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Weather Details -->
+      <div class="details">
+        <div class="detail-card">
+          <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4a8.svg" class="detailCardIcon"
+            alt="Wind speed" />
+
+          <div class="detailcardInfo">
+            <p>Wind Speed</p>
+            <span id="wind">20 km/h</span>
+          </div>
+        </div>
+
+        <div class="detail-card">
+          <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f4ca.svg" class="detailCardIcon"
+            alt="Pressure" />
+
+          <div class="detailcardInfo">
+            <p>Pressure</p>
+            <span id="pressure">1013 hPa</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Forecast Section -->
+      <div class="forecast-section">
+        <div id="forecast" class="forecast">
+          <!-- Populated via JavaScript dynamically -->
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer">
+        <p id="lastUpdate" class="last-update">
+          Last Updated, &copy; 2026 Weather Broadcast. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

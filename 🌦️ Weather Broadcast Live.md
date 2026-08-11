@@ -1,0 +1,155 @@
+# 🌦️ Weather Broadcast Live
+
+A modern, responsive, and interactive weather application built with **HTML, CSS, and Vanilla JavaScript**. The application fetches real-time weather information using the **Open-Meteo API** and provides city search, autocomplete suggestions, dynamic weather icons, and hourly forecasts.
+
+## ✨ Features
+
+- 🔎 **City Search** — Search weather information by city name.
+- 📍 **City Suggestions** — Get city suggestions while typing.
+- 🌡️ **Current Temperature** — Displays the current temperature in Celsius.
+- 🤗 **Feels Like Temperature** — Shows the apparent temperature.
+- 💧 **Humidity** — Displays current relative humidity.
+- 💨 **Wind Speed** — Shows current wind speed.
+- 📊 **Atmospheric Pressure** — Displays current surface pressure.
+- 🌤️ **Dynamic Weather Conditions** — Weather descriptions update based on the weather code.
+- 🎨 **Dynamic SVG Weather Icons** — Weather icons change automatically according to current conditions.
+- 🕐 **Hourly Forecast** — Displays upcoming hourly weather information.
+- 🟢 **Live Status Indicator** — Animated live weather status.
+- 📱 **Responsive Design** — Works across desktop, tablet, and mobile devices.
+- 🪟 **Glassmorphism UI** — Modern transparent weather card with a blurred background.
+- ⚡ **No Framework Required** — Built using pure HTML, CSS, and JavaScript.
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| HTML5 | Application structure |
+| CSS3 | Styling and responsive design |
+| JavaScript | Application logic and API integration |
+| Open-Meteo API | Weather and geocoding data |
+| Font Awesome | UI icons |
+| SVG | Dynamic weather icons |
+
+## 📂 Project Structure
+
+```text
+Weather-Broadcast-Live/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 🌐 API
+
+This project uses **Open-Meteo** for weather and geocoding data.
+
+- Weather API: `https://api.open-meteo.com/`
+- Geocoding API: `https://geocoding-api.open-meteo.com/`
+
+No API key is required for this project.
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/weather-broadcast-live.git
+```
+
+### 2. Open the project
+
+```bash
+cd weather-broadcast-live
+```
+
+### 3. Run the application
+
+You can open `index.html` directly in your browser.
+
+For a better development experience, use **VS Code Live Server** or another local development server.
+
+## 🔄 How It Works
+
+```text
+User searches for a city
+        ↓
+Geocoding API
+        ↓
+Latitude & Longitude
+        ↓
+Open-Meteo Weather API
+        ↓
+Current Weather Data
+        ↓
+JavaScript processes weather code
+        ↓
+Dynamic SVG Icon + Weather Information
+        ↓
+Hourly Forecast
+```
+
+## 📸 Preview
+
+Add your project screenshot here:
+
+```md
+![Weather Broadcast Live Preview](./assets/preview.png)
+```
+
+## 📱 Responsive Design
+
+The interface is designed to work across:
+
+- 💻 Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📟 Tablet
+
+## 🎯 Learning Objectives
+
+This project was created to practice:
+
+- Working with REST APIs
+- Using `fetch()` and `async/await`
+- Handling JSON data
+- DOM manipulation
+- Event listeners
+- Search autocomplete
+- Dynamic content rendering
+- Weather-code mapping
+- SVG image URLs
+- Responsive CSS
+- Modern glassmorphism UI
+
+## 🔮 Future Improvements
+
+- 📍 Detect user's current location
+- 🌙 Dark/Light weather themes
+- 🌅 Sunrise and sunset information
+- 🌧️ Precipitation probability
+- 📅 Multi-day weather forecast
+- 🌬️ Air quality information
+- 🌎 More detailed location information
+- 📲 Progressive Web App (PWA) support
+- 🌐 Nepali language support
+
+## 👨‍💻 Author
+
+**Prakash KC**
+
+Full-Stack Web Developer | Cybersecurity Learner | Technology Enthusiast 🇳🇵
+
+- GitHub: `https://github.com/YOUR-USERNAME`
+- LinkedIn: `https://www.linkedin.com/in/YOUR-USERNAME/`
+
+## 📄 License
+
+This project is open source and available under the **MIT License**.
+
+---
+
+⭐ If you found this project useful, consider giving it a **star** on GitHub!
+
+**Built with ❤️ using HTML, CSS, JavaScript & Open-Meteo API.**
