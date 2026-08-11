@@ -1,6 +1,8 @@
 # 🌦️ Weather Broadcast Live
 
-A modern, responsive, and interactive weather application built with **HTML, CSS, and Vanilla JavaScript**. The application fetches real-time weather information using the **Open-Meteo API** and provides city search, autocomplete suggestions, dynamic weather icons, and hourly forecasts.
+A modern, responsive, and interactive weather application built with **HTML, CSS, and Vanilla JavaScript**.
+
+The application fetches real-time weather information using the **Open-Meteo API** and provides city search, autocomplete suggestions, dynamic weather icons, and hourly forecasts.
 
 ## ✨ Features
 
@@ -11,12 +13,12 @@ A modern, responsive, and interactive weather application built with **HTML, CSS
 - 💧 **Humidity** — Displays current relative humidity.
 - 💨 **Wind Speed** — Shows current wind speed.
 - 📊 **Atmospheric Pressure** — Displays current surface pressure.
-- 🌤️ **Dynamic Weather Conditions** — Weather descriptions update based on the weather code.
-- 🎨 **Dynamic SVG Weather Icons** — Weather icons change automatically according to current conditions.
+- 🌤️ **Dynamic Weather Conditions** — Weather descriptions update based on weather codes.
+- 🎨 **Dynamic SVG Weather Icons** — Icons automatically change according to weather conditions.
 - 🕐 **Hourly Forecast** — Displays upcoming hourly weather information.
 - 🟢 **Live Status Indicator** — Animated live weather status.
 - 📱 **Responsive Design** — Works across desktop, tablet, and mobile devices.
-- 🪟 **Glassmorphism UI** — Modern transparent weather card with a blurred background.
+- 🪟 **Glassmorphism UI** — Modern transparent weather interface with a blurred background.
 - ⚡ **No Framework Required** — Built using pure HTML, CSS, and JavaScript.
 
 ## 🛠️ Technologies Used
@@ -45,28 +47,28 @@ Weather-Broadcast-Live/
 
 This project uses **Open-Meteo** for weather and geocoding data.
 
-- Weather API: `https://api.open-meteo.com/`
-- Geocoding API: `https://geocoding-api.open-meteo.com/`
+- **Weather API:** https://api.open-meteo.com/
+- **Geocoding API:** https://geocoding-api.open-meteo.com/
 
 No API key is required for this project.
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/weather-broadcast-live.git
 ```
 
-### 2. Open the project
+### 2. Open the Project
 
 ```bash
 cd weather-broadcast-live
 ```
 
-### 3. Run the application
+### 3. Run the Application
 
-You can open `index.html` directly in your browser.
+Open `index.html` directly in your browser.
 
 For a better development experience, use **VS Code Live Server** or another local development server.
 
@@ -85,14 +87,23 @@ Current Weather Data
         ↓
 JavaScript processes weather code
         ↓
-Dynamic SVG Icon + Weather Information
+Dynamic SVG Weather Icon
+        ↓
+Weather Information
         ↓
 Hourly Forecast
 ```
 
 ## 📸 Preview
 
-Add your project screenshot here:
+Add your project screenshot to the `assets` folder:
+
+```text
+assets/
+└── preview.png
+```
+
+Then use:
 
 ```md
 ![Weather Broadcast Live Preview](./assets/preview.png)
@@ -111,17 +122,17 @@ The interface is designed to work across:
 
 This project was created to practice:
 
-- Working with REST APIs
-- Using `fetch()` and `async/await`
-- Handling JSON data
+- REST API integration
+- `fetch()` and `async/await`
+- JSON data handling
 - DOM manipulation
 - Event listeners
-- Search autocomplete
+- City search autocomplete
 - Dynamic content rendering
 - Weather-code mapping
 - SVG image URLs
 - Responsive CSS
-- Modern glassmorphism UI
+- Glassmorphism UI design
 
 ## 🔮 Future Improvements
 
@@ -131,7 +142,7 @@ This project was created to practice:
 - 🌧️ Precipitation probability
 - 📅 Multi-day weather forecast
 - 🌬️ Air quality information
-- 🌎 More detailed location information
+- 🌎 Detailed location information
 - 📲 Progressive Web App (PWA) support
 - 🌐 Nepali language support
 
@@ -141,8 +152,8 @@ This project was created to practice:
 
 Full-Stack Web Developer | Cybersecurity Learner | Technology Enthusiast 🇳🇵
 
-- GitHub: `https://github.com/YOUR-USERNAME`
-- LinkedIn: `https://www.linkedin.com/in/YOUR-USERNAME/`
+- **GitHub:** `https://github.com/YOUR-USERNAME`
+- **LinkedIn:** `https://www.linkedin.com/in/YOUR-USERNAME/`
 
 ## 📄 License
 
