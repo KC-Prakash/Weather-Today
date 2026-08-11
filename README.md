@@ -1,7 +1,9 @@
 # 🌦️ Weather Broadcast Live
 
 A modern, responsive, and interactive weather application built with **HTML, CSS, and Vanilla JavaScript**. The application uses the **Open-Meteo API** to provide real-time weather information, city search, autocomplete suggestions, dynamic SVG weather icons, and hourly forecasts.
-![Uploading image.png…]()
+
+<img width="1857" height="826" alt="image" src="https://github.com/user-attachments/assets/3ae9e6a1-def1-4f4c-ae92-faa04e729e56" />
+
 
 ## ✨ Features
 
