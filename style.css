@@ -10,6 +10,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow-y: auto;
   background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2VhdGhlcnxlbnwwfHwwfHx8&w=1000&q=80") no-repeat center center/cover;
   position: relative;
 }
@@ -37,6 +38,7 @@ body::after {
 .weather-card {
   width: 100%;
   max-width: 420px;
+  overflow: hidden;
   padding: 30px;
   border-radius: 20px;
   text-align: center;
@@ -299,4 +301,58 @@ body::after {
 .last-update {
   color: rgba(255, 255, 255, 0.6);
   font-size: 11px;
+}
+
+
+/* Mobile Responsive Fix */
+@media (max-width: 480px) {
+
+  body {
+    align-items: flex-start;
+    padding: 15px 0;
+    overflow-y: auto;
+  }
+
+  .container {
+    padding: 0 10px;
+    align-items: flex-start;
+  }
+
+  .weather-card {
+    max-width: 100%;
+    padding: 24px 20px;
+  }
+
+  .weather-info {
+    gap: 10px;
+  }
+
+  #temp {
+    font-size: 44px;
+  }
+
+  .heroCards {
+    gap: 10px;
+  }
+
+  .details {
+    gap: 10px;
+  }
+
+  .detail-card {
+    padding: 10px;
+    gap: 8px;
+  }
+
+  .forecast {
+    padding: 10px 6px;
+  }
+
+  .forecast-card img {
+    width: 30px !important;
+  }
+
+  .last-update {
+    line-height: 1.5;
+  }
 }
